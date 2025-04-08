@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    margin-top: 56px;
+}
+
+
+.equal-height {
+    display: flex;
+    flex-direction: column;
+}
+
+.equal-height .card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+
+.equal-height .card-body {
+    flex: 1;
+}
+
+.card{
+    height: 790px;
+}
+
+.custom-container {
+    background-color: #ff7f60;
+    padding: 20px;
+    margin: 10px;
+    height: 835px;
+    border-radius: 10px;
+}
+
+/* Center the row */
+.center-row {
+    display: flex;
+    justify-content: center;
+}
