@@ -24,7 +24,7 @@ main {
     flex: 1;
 }
 
-.card{
+.card {
     height: 790px;
 }
 
@@ -40,4 +40,11 @@ main {
 .center-row {
     display: flex;
     justify-content: center;
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
